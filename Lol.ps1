@@ -21,7 +21,6 @@ if (-not $args) {
     catch {
         Write-Host "Error: $($_.Exception.Message)" -ForegroundColor Red
         Write-Host "Powershell failed to load .NET command."
-        Write-Host "Help - https://massgrave.dev/in-place_repair_upgrade" -ForegroundColor White -BackgroundColor Blue
         return
     }
 
@@ -48,7 +47,7 @@ if (-not $args) {
     try { [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 } catch {}
 
     $URLs = @(
-        'https://raw.githubusercontent.com/Stefan-cloud-tech/win10/Activ.cmd',
+        'https://raw.githubusercontent.com/Stefan-cloud-tech/win10/main/Activ.cmd',
     )
     Write-Progress -Activity "Downloading..." -Status "Please wait"
     $errors = @()

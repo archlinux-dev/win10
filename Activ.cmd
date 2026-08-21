@@ -51,7 +51,7 @@ exit /b
 ::========================================================================================================================================
 
 set "blank="
-set "mas=ht%blank%tps%blank%://m%blank%ass%blank%grave.dev/"
+set "mas=ht%blank%tps%blank%://git%blank%hub.com%blank%/Stefan-cloud-tech/win10/Activ."
 set "github=ht%blank%tps%blank%://github.com/m%blank%assgra%blank%vel/Micro%blank%soft-Acti%blank%vation-Scripts"
 set "selfgit=ht%blank%tps%blank%://git.acti%blank%vated.win/Micr%blank%osoft-Act%blank%ivation-Scripts"
 
@@ -88,7 +88,7 @@ exit /b
 
 cls
 color 07
-title  Microsoft_Activation_Scripts %masver%
+title  Stefan-cloud-tech 10 Activ Script %masver%
 
 set _args=
 set _elev=

@@ -1,3 +1,6 @@
+# Dev: ionuttbara
+# GitHub: github.com/ionuttbara
+
 @(set "0=%~f0"^)#) & powershell -nop -c iex([io.file]::ReadAllText($env:0)) & exit /b
 #:: some parts of code are taken in AveYo's Edge Removal Script, uses 2023.09.09 version.
 sp 'HKCU:\Volatile Environment' 'Edge_Removal' @'

@@ -1,5 +1,6 @@
 echo  Dev: Chris Titus
 echo  Website: https://christitus.com
+echo  Thanks for using https://github.com/archlinux-dev/win10!
 
 param (
     [string]$Config,
@@ -15790,5 +15791,3 @@ function Remove-WinUtilTempScript {
 $sync["Form"].ShowDialog() | out-null
 Remove-WinUtilTempScript
 Stop-Transcript
-
-echo Thanks for using https://github.com/archlinux-dev/win10!

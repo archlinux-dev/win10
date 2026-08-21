@@ -47,7 +47,7 @@ if (-not $args) {
     try { [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 } catch {}
 
     $URLs = @(
-        'https://raw.githubusercontent.com/Stefan-cloud-tech/win10/main/Activ.cmd',
+        'https://raw.githubusercontent.com/Stefan-cloud-tech/win10/main/Activ.cmd'
     )
     Write-Progress -Activity "Downloading..." -Status "Please wait"
     $errors = @()

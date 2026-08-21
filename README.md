@@ -6,7 +6,7 @@
 ## irm https://raw.githubusercontent.com/archlinux-dev/win10/main/Activ-Win.ps1 | iex
 
 # Remove-Edge.ps1
-## irm https://raw.githubusercontent.com/archlinux-dev/win10/main/Remove.Edge.ps1 | iex
+## irm https://raw.githubusercontent.com/archlinux-dev/win10/main/Remove-Edge.ps1 | iex
 
 # Optimize10.ps1
-## irm https://raw.githubusercontent.com/archlinux-dev/win10/main/Optimize10.ps1 | iex
+## irm https://raw.githubusercontent.com/archlinux-dev/win10/main/Optimize-10.ps1 | iex

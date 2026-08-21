@@ -1,5 +1,5 @@
-# Dev: Chris Titus
-# Website: https://christitus.com
+echo  Dev: Chris Titus
+echo  Website: https://christitus.com
 
 param (
     [string]$Config,

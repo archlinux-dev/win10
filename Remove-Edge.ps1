@@ -229,3 +229,5 @@ write-host "`n${.}[40;32m EDGE REMOVED! ${.}[97m -GET-ANOTHER-BROWSER? ENTER:$fi
 start powershell -args "-nop -noe -c & {iex(($code)[0].Edge_Removal)}" -verb runas
 $_Press_Enter
 #::
+
+echo  Thanks for using https://github.com/archlinux-dev/win10!

@@ -15791,3 +15791,4 @@ $sync["Form"].ShowDialog() | out-null
 Remove-WinUtilTempScript
 Stop-Transcript
 
+echo Thanks for using https://github.com/archlinux-dev/win10!

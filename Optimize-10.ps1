@@ -1,6 +1,6 @@
-echo  Dev: Chris Titus
-echo  Website: https://christitus.com
-echo  Thanks for using https://github.com/archlinux-dev/win10!
+echo  "Dev: Chris Titus"
+echo  "Website: https://christitus.com"
+echo  "Thanks for using https://github.com/archlinux-dev/win10!"
 
 param (
     [string]$Config,

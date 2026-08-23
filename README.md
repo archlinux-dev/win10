@@ -1,4 +1,4 @@
-# Powerfull Tools, all in one Repo
+# Powerful Tools, all in one Repo
 ## (And a Tutorial on how to run)
 ### (Also By the Way we do not own any of the scripts and attempt to credit the Devs / Owners)
 

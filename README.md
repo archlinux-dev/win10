@@ -16,3 +16,6 @@
 
 # Steam-Install.ps1
 ## irm https://raw.githubusercontent.com/archlinux-dev/win10/main/steam.ps1 | iex
+
+# Discord-Install.ps1
+## irm https://raw.githubusercontent.com/archlinux-dev/win10/main/discord.ps1 | iex

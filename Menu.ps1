@@ -8,6 +8,7 @@ do {
     Write-Host "4. Install VLC"
     Write-Host "5. Install Discord"
     Write-Host "6. Install Steam"
+    Write-Host "7. Install Notepad++"
     Write-Host ""
     Write-Host "Q. Exit" -ForegroundColor Red
     Write-Host ""
@@ -20,6 +21,7 @@ do {
         "4" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/vlc.ps1 | iex }
         "5" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/discord.ps1 | iex }
         "6" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/steam.ps1 | iex }
+        "7" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/notepadplusplus.ps1 | iex }
         "Q" { break }
         default { Write-Host "Invalid choice" -ForegroundColor Red; Start-Sleep -Seconds 1 }
     }

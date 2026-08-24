@@ -10,3 +10,6 @@
 
 # Optimize10.ps1
 ## irm https://raw.githubusercontent.com/archlinux-dev/win10/main/Optimize-10.ps1 | iex
+
+# VLC-Install.ps1
+## irm https://raw.githubusercontent.com/archlinux-dev/win10/main/vlc.ps1 | iex

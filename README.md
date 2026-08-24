@@ -51,3 +51,6 @@ irm https://raw.githubusercontent.com/archlinux-dev/win10/main/revouninstaller.p
 ```powershell
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/powertoys.ps1 | iex
 ```
+
+
+## Also feel free to comment and tell us what to add next!

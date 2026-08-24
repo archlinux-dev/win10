@@ -36,3 +36,9 @@ irm https://raw.githubusercontent.com/archlinux-dev/win10/main/steam.ps1 | iex
 ```powershell
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/discord.ps1 | iex
 ```
+
+# Notepad++-Install.ps1
+```powershell
+irm https://raw.githubusercontent.com/archlinux-dev/win10/main/notepadplusplus.ps1 | iex
+```
+

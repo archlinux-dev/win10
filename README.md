@@ -52,5 +52,9 @@ irm https://raw.githubusercontent.com/archlinux-dev/win10/main/revouninstaller.p
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/powertoys.ps1 | iex
 ```
 
+# WingetUI-Install.ps1
+```powershell
+irm https://raw.githubusercontent.com/archlinux-dev/win10/main/wingetui.ps1 | iex
+```
 
 ## Also feel free to comment and tell us what to add next!

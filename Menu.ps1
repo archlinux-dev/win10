@@ -30,6 +30,6 @@ do {
 
 Write-Host ""
 Write-Host "Dev: archlinux-dev ( & claude)" -ForegroundColor Cyan
-Write-Host "Website: https://github.com/archlinux-dev/win10" -ForegroundColor Cyan
+Write-Host "Website: https://github.com/archlinux-dev" -ForegroundColor Cyan
 Write-Host "Thanks for using https://github.com/archlinux-dev/win10" -ForegroundColor Cyan
 Write-Host ""

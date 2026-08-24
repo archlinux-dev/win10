@@ -11,6 +11,7 @@ do {
     Write-Host "7. Install Notepad++"
     Write-Host "8. Install Revo Uninstaller"
     Write-Host "9. Install Microsoft Powertoys"
+    Write-Host "10. Install WingetUI"
     Write-Host ""
     Write-Host "Q. Exit" -ForegroundColor Red
     Write-Host ""
@@ -26,6 +27,7 @@ do {
         "7" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/notepadplusplus.ps1 | iex }
         "8" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/revouninstaller.ps1 | iex }
         "9" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/powertoys.ps1 | iex }
+        "10" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/wingetui.ps1 | iex }
         "Q" { break }
         default { Write-Host "Invalid choice" -ForegroundColor Red; Start-Sleep -Seconds 1 }
     }

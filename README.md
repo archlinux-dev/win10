@@ -13,3 +13,6 @@
 
 # VLC-Install.ps1
 ## irm https://raw.githubusercontent.com/archlinux-dev/win10/main/vlc.ps1 | iex
+
+# Steam-Install.ps1
+## irm https://raw.githubusercontent.com/archlinux-dev/win10/main/steam.ps1 | iex

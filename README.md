@@ -46,3 +46,8 @@ irm https://raw.githubusercontent.com/archlinux-dev/win10/main/notepadplusplus.p
 ```powershell
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/revouninstaller.ps1 | iex
 ```
+
+# Powertoys-Install.ps1
+```powershell
+irm https://raw.githubusercontent.com/archlinux-dev/win10/main/powertoys.ps1 | iex
+```

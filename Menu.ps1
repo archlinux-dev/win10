@@ -1,0 +1,35 @@
+do {
+    Clear-Host
+    Write-Host "=== Win10 Toolkit ===" -ForegroundColor Cyan
+    Write-Host ""
+    Write-Host "1. Remove Edge"
+    Write-Host "2. Activate Windows"
+    Write-Host "3. Optimize Windows 10"
+    Write-Host "4. Install VLC"
+    Write-Host "5. Install Discord"
+    Write-Host "6. Install Steam"
+    Write-Host ""
+    Write-Host "Q. Exit" -ForegroundColor Red
+    Write-Host ""
+    $choice = Read-Host "Choose"
+
+    switch ($choice) {
+        "1" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/Remove-Edge.ps1 | iex }
+        "2" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/Activ-Win.ps1 | iex }
+        "3" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/Optimize-10.ps1 | iex }
+        "4" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/vlc.ps1 | iex }
+        "5" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/discord.ps1 | iex }
+        "6" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/steam.ps1 | iex }
+        "Q" { break }
+        default { Write-Host "Invalid choice" -ForegroundColor Red; Start-Sleep -Seconds 1 }
+    }
+
+    if ($choice -ne "Q") { Read-Host "Press Enter to return to menu" }
+
+} while ($choice -ne "Q")
+
+Write-Host ""
+Write-Host "Dev: archlinux-dev ( & claude)" -ForegroundColor Cyan
+Write-Host "Website: https://github.com/archlinux-dev/win10" -ForegroundColor Cyan
+Write-Host "Thanks for using https://github.com/archlinux-dev/win10" -ForegroundColor Cyan
+Write-Host ""

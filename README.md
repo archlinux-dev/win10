@@ -42,3 +42,7 @@ irm https://raw.githubusercontent.com/archlinux-dev/win10/main/discord.ps1 | iex
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/notepadplusplus.ps1 | iex
 ```
 
+# Revo Uninstaller-Install.ps1
+```powershell
+irm https://raw.githubusercontent.com/archlinux-dev/win10/main/revouninstaller.ps1 | iex
+```

@@ -2,6 +2,9 @@
 ## (And a Tutorial on how to run)
 ### (Also By the Way we do not own any of the scripts and attempt to credit the Devs / Owners)
 
+# Menu - Recommended
+## irm https://raw.githubusercontent.com/archlinux-dev/win10/main/Menu.ps1 | iex
+
 # Activ-Win.ps1
 ## irm https://raw.githubusercontent.com/archlinux-dev/win10/main/Activ-Win.ps1 | iex
 

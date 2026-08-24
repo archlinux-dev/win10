@@ -9,6 +9,7 @@ do {
     Write-Host "5. Install Discord"
     Write-Host "6. Install Steam"
     Write-Host "7. Install Notepad++"
+    Write-Host "8. Install Revo Uninstaller"
     Write-Host ""
     Write-Host "Q. Exit" -ForegroundColor Red
     Write-Host ""
@@ -22,6 +23,7 @@ do {
         "5" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/discord.ps1 | iex }
         "6" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/steam.ps1 | iex }
         "7" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/notepadplusplus.ps1 | iex }
+        "8" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/revouninstaller.ps1 | iex }
         "Q" { break }
         default { Write-Host "Invalid choice" -ForegroundColor Red; Start-Sleep -Seconds 1 }
     }

@@ -14,6 +14,7 @@ do {
     Write-Host "10. Install WingetUI"
     Write-Host "11. Install SpotX (Spotify Cracked)"
     Write-Host "12. Remove Windows Defender"
+    Write-Host "13. Install System Informer"
     Write-Host ""
     Write-Host "Q. Exit" -ForegroundColor Red
     Write-Host ""
@@ -32,6 +33,7 @@ do {
         "10" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/wingetui.ps1 | iex }
         "11" { $t="$env:TEMP\s.bat"; irm https://raw.githubusercontent.com/archlinux-dev/win10/main/spotifycrack.bat -OutFile $t; start cmd "/c `"$t`"" }
         "12" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/removedefender.ps1 | iex }
+        "13" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/sysinfo.ps1 | iex }
         "Q" { break }
         default { Write-Host "Invalid choice" -ForegroundColor Red; Start-Sleep -Seconds 1 }
     }
@@ -41,7 +43,7 @@ do {
 } while ($choice -ne "Q")
 
 Write-Host ""
-Write-Host "Dev: archlinux-dev ( & claude)" -ForegroundColor Cyan
+Write-Host "Dev: archlinux-dev" -ForegroundColor Cyan
 Write-Host "Website: https://github.com/archlinux-dev" -ForegroundColor Cyan
 Write-Host "Thanks for using https://github.com/archlinux-dev/win10" -ForegroundColor Cyan
 Write-Host ""

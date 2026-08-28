@@ -1,6 +1,6 @@
 do {
     Clear-Host
-    Write-Host "=== Win10 Toolkit ===" -ForegroundColor Cyan
+    Write-Host "=== Win10-11 Toolkit ===" -ForegroundColor Cyan
     Write-Host ""
     Write-Host "1. Remove Edge"
     Write-Host "2. Activate Windows"
@@ -12,6 +12,7 @@ do {
     Write-Host "8. Install Revo Uninstaller"
     Write-Host "9. Install Microsoft Powertoys"
     Write-Host "10. Install WingetUI"
+    Write-Host "11. Install SpotX (Spotify Cracked)"
     Write-Host ""
     Write-Host "Q. Exit" -ForegroundColor Red
     Write-Host ""
@@ -28,6 +29,7 @@ do {
         "8" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/revouninstaller.ps1 | iex }
         "9" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/powertoys.ps1 | iex }
         "10" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/wingetui.ps1 | iex }
+        "11" { $t="$env:TEMP\s.bat"; irm https://raw.githubusercontent.com/archlinux-dev/win10/main/spotifycrack.bat -OutFile $t; start cmd "/c `"$t`"" }
         "Q" { break }
         default { Write-Host "Invalid choice" -ForegroundColor Red; Start-Sleep -Seconds 1 }
     }

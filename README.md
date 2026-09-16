@@ -1,6 +1,8 @@
 # Powerful Tools, all in one Repo
 ### (And a Tutorial on how to run)
 ## (Also By the Way we do not own any of the scripts and attempt to credit the Devs / Owners)
+# ALL TOOLS ARE FOR WINDOWS 10 AND WINDOWS 11
+### (We just haven't changed the names cause we don't want to replace EVERY mention of the URL / Link)
 
 # Menu - Recommended
 ```powershell

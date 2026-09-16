@@ -2,9 +2,11 @@ do {
     Clear-Host
     Write-Host "=== Win10-11 Toolkit ===" -ForegroundColor Cyan
     Write-Host ""
+    Write-Host "ALL TOOLS ARE COMPATIBLE WITH WINDOWS 10 AND WINDOWS 11"
+    Write-Host ""
     Write-Host "1. Remove Edge"
     Write-Host "2. Activate Windows"
-    Write-Host "3. Optimize Windows 10"
+    Write-Host "3. Optimize Windows 10 / 11"
     Write-Host "4. Install VLC"
     Write-Host "5. Install Discord"
     Write-Host "6. Install Steam"

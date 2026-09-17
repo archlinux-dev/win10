@@ -9,69 +9,74 @@
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/Menu.ps1 | iex
 ```
 
-# Activ-Win.ps1
+## Activ-Win.ps1
 ```powershell
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/Activ-Win.ps1 | iex
 ```
 
-# Remove-Edge.ps1
+## Remove-Edge.ps1
 ```powershell
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/Remove-Edge.ps1 | iex
 ```
 
-# Optimize10.ps1
+## Optimize10.ps1
 ```powershell
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/Optimize-10.ps1 | iex
 ```
 
-# VLC-Install.ps1
+## VLC-Install.ps1
 ```powershell
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/vlc.ps1 | iex
 ```
 
-# Steam-Install.ps1
+## Steam-Install.ps1
 ```powershell
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/steam.ps1 | iex
 ```
 
-# Discord-Install.ps1
+## Discord-Install.ps1
 ```powershell
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/discord.ps1 | iex
 ```
 
-# Notepad++-Install.ps1
+## Notepad++-Install.ps1
 ```powershell
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/notepadplusplus.ps1 | iex
 ```
 
-# Revo Uninstaller-Install.ps1
+## Revo Uninstaller-Install.ps1
 ```powershell
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/revouninstaller.ps1 | iex
 ```
 
-# Powertoys-Install.ps1
+## Powertoys-Install.ps1
 ```powershell
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/powertoys.ps1 | iex
 ```
 
-# WingetUI-Install.ps1
+## WingetUI-Install.ps1
 ```powershell
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/wingetui.ps1 | iex
 ```
 
-# spotifycrack.bat
+## spotifycrack.bat
 ```powershell
 { $t="$env:TEMP\s.bat"; irm https://raw.githubusercontent.com/archlinux-dev/win10/main/spotifycrack.bat -OutFile $t; start cmd "/c `"$t`"" }
 ```
 
-# removedefender.ps1 (Broken)
+## removedefender.ps1 (Broken)
 ```powershell
 irm https://raw.github.com/archlinux-dev/win10/main/removedefender.ps1 | iex
 ```
 
-# SystemInformer (Process Hacker 2 formaly)
+## SystemInformer (Process Hacker 2 formaly)
 ```powershell
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/sysinfo.ps1 | iex
+```
+
+## WinRar Crack
+```powershell
+irm https://raw.githubusercontent.com/archlinux-dev/win10/main/winrar.ps1 | iex
 ```
 ## Also feel free to comment and tell us what to add next!
 

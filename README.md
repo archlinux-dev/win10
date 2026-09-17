@@ -64,12 +64,12 @@ irm https://raw.githubusercontent.com/archlinux-dev/win10/main/wingetui.ps1 | ie
 { $t="$env:TEMP\s.bat"; irm https://raw.githubusercontent.com/archlinux-dev/win10/main/spotifycrack.bat -OutFile $t; start cmd "/c `"$t`"" }
 ```
 
-## removedefender.ps1 (Broken)
+## removedefender.ps1
 ```powershell
 irm https://raw.github.com/archlinux-dev/win10/main/removedefender.ps1 | iex
 ```
 
-## SystemInformer (Process Hacker 2 formaly)
+## SystemInformer (Formally known as Process Hacker 2)
 ```powershell
 irm https://raw.githubusercontent.com/archlinux-dev/win10/main/sysinfo.ps1 | iex
 ```

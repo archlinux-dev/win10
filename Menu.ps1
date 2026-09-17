@@ -15,7 +15,7 @@ do {
     Write-Host "9. Install Microsoft Powertoys"
     Write-Host "10. Install WingetUI"
     Write-Host "11. Install SpotX (Spotify Cracked)"
-    Write-Host "12. Remove Windows Defender (broken)"
+    Write-Host "12. Remove Windows Defender"
     Write-Host "13. Install System Informer"
     Write-Host "14. WinRar Cracked (Needs WinRaR Installed)"
     Write-Host ""

@@ -1,8 +1,8 @@
-echo  "Dev: ionuttbara"
-echo  "Website: github.com/ionuttbara/"
+echo  "Dev: 1sam11"
+echo  "Website: github.com/1sam11/"
 echo  "Thanks for using https://github.com/archlinux-dev/win10!"
 
-echo "This Script is currently broken!! Please try again later!!!
+#echo "This Script is currently broken!! Please try again later!!!#
 
-#Invoke-WebRequest -Uri "https://github.com/ionuttbara/windows-defender-remover/releases/download/release13-rev1/Defender.Remover.13.exe" -OutFile "$env:TEMP\Defender.Remover.13.exe"
-#Start-Process "$env:TEMP\Defender.Remover.13.exe" -Verb RunAs
+Invoke-WebRequest -Uri "https://github.com/1sam11/remove-windows-defender/blob/master/remove_defender.bat" -OutFile "$env:TEMP\Defender.Remover.bat"
+Start-Process "$env:TEMP\Defender.Remover.bat" -Verb RunAs
